@@ -413,7 +413,7 @@ jobs:
           }
           echo "✅ Image trouvée et accessible"
       
-      #  Attendre que l'image soit complètement disponible
+      #  Attendre que l'image soit  disponible
       - name: Wait for image availability
         run: |
           echo "⏳ Attente de la disponibilité complète de l'image..."
